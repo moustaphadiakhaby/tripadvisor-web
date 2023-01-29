@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/fonts.css" />
+    <script src="./assets/js/main.js"></script>
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <link
+      rel="icon"
+      href="./assets/img/Tripadvisor_logoset_solid_green.svg"
+      type="image/icon type"
+    />
+    <title>Tripadvisor</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="searchbar bars"><i class="icon-menu_bars"></i></div>
+
+        <div class="logo1">
+          <img src="./assets/img/logo.svg" alt="logo de Tripadvisor" />
+        </div>
+        <div class="headercontent">
+          <div class="searchbar">
+            <i class="icon-search"></i>
+            <i class="icon-empty_cart"></i>
+          </div>
+          <nav class="headernav">
+            <div class="icontxt">
+              <i class="icon-pencil"></i>
+
+              <p class="navtxt">Avis</p>
+            </div>
+            <div class="icontxt">
+              <i class="icon-heart"></i>
+
+              <p class="navtxt">Voyages</p>
+            </div>
+            <div class="icontxt">
+              <i class="icon-notification_bell"></i>
+
+              <p class="navtxt">Alertes</p>
+            </div>
+
+            <div class="button">
+              <button id="formulary">Connectez-vous</button>
+            </div>
+
+            <div class="icontxt">
+              <i class="icon-empty_cart"></i>
+              <p class="navtxt">Panier</p>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <section id="presentation">
+          <h1><span class="colorful">Explorez</span> Paris</h1>
+
+          <p class="baseline">
+            Les revenus influencent le choix des expériences présentées sur
+            cette page : <span class="surline">en savoir plus</span>.
+          </p>
+
+          <nav class="mkchoice">
+            <div class="choicedesc">
+              <p class="choicetxt">Hôtels</p>
+              <i class="icon-hotels"></i>
+            </div>
+            <div class="choicedesc">
+              <p class="choicetxt">Locations de vacances</p>
+              <i class="icon-vacation_rentals"></i>
+            </div>
+            <div class="choicedesc">
+              <p class="choicetxt">Activités</p>
+              <i class="icon-attractions"></i>
+            </div>
+            <div class="choicedesc">
+              <p class="choicetxt">Restaurants</p>
+              <i class="icon-restaurants"></i>
+            </div>
+            <div class="choicedesc">
+              <p class="choicetxt">Forums de voyage</p>
+              <i class="icon-forums"></i>
+            </div>
+            <div class="choicedesc">
+              <p class="choicetxt">Vols</p>
+              <i class="icon-flights"></i>
+            </div>
+            <div class="choicedesc">
+              <p class="choicetxt">Croisières</p>
+              <i class="icon-cruises"></i>
+            </div>
+            <div class="choicedesc">
+              <p class="choicetxt">Plus</p>
+              <i class="icon-more_horizontal"></i>
+            </div>
+          </nav>
+        </section>
+      </div>
+      <div class="container">
+        <section id="main-images">
+          <div class="pictures">
+            <div class="pic1">
+              <img class="image1" src="./assets/img/caption (2).jpg" alt="" />
+              <img class="oscar" src="./assets/img/TC_LL.svg" alt="" />
+              <div class="allpics">
+                <i class="icon-photo"></i>
+                <p>Toutes les photos</p>
+              </div>
+            </div>
+
+            <div class="otherpic">
+              <div class="pic2">
+                <img class="image2" src="./assets/img/caption.jpg" alt="" />
+              </div>
+              <div class="pic2">
+                <img class="image3" src="./assets/img/caption (1).jpg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <nav class="pic-desc">
+            <div class="location">
+              <p class="imp">Europe&nbsp;&nbsp;</p>
+              <p class="imp">>&nbsp;&nbsp;</p>
+              <p class="imp">France&nbsp;&nbsp;</p>
+              <p class="imp">>&nbsp;&nbsp;</p>
+              <p class="imp">Île-de-France&nbsp;&nbsp;</p>
+              <p class="imp">>&nbsp;&nbsp;</p>
+              <p class="imp">Paris&nbsp;&nbsp;</p>
+              <p class="impi">▼&nbsp;&nbsp;</p>
+            </div>
+
+            <div class="impo">Visiter : Paris</div>
+          </nav>
+        </section>
+      </div>
+
+      <div class="container">
+        <section id="article">
+          <div class="articlecontent">
+            <div class="text">
+              <h2>La Ville Lumière éblouit en tous points</h2>
+              <p class="sublimetext">
+                Aucun autre endroit au monde ne fait autant rêver que Paris. La
+                ville séduit par son art, son architecture, sa culture et sa
+                cuisine, mais il y a aussi des merveilles plus discrètes qui
+                n'attendent qu'à être explorées : les ruelles pavées
+                pittoresques, les pâtisseries au coin de la rue et les petits
+                bistrots douillets qui vous invitent à boire un verre de
+                beaujolais. Préparez-vous à vous approprier Paris.
+              </p>
+            </div>
+
+            <div class="textimg">
+              <div class="border">
+                <h3>Paris : commencez à organiser !</h3>
+
+                <div>
+                  <p class="bordertxt">
+                    Créez un voyage pour enregistrer et organiser toutes vos
+                    idées et les visualiser sur une carte.
+                  </p>
+                </div>
+
+                <button>Créez un voyage</button>
+              </div>
+              <img class="map" src="./assets/img/maps_cnuhsr.png" alt="" />
+            </div>
+          </div>
+        </section>
+
+        <section id="places">
+          <h2>Paris : les immanquables</h2>
+
+          <div class="placestogo">
+            <div class="placestxt">
+              <h4>Se divertir</h4>
+
+              <p>
+                Des lieux à voir, des rues à explorer et des expériences
+                emblématiques à Paris.
+              </p>
+
+              <span>Tout afficher</span>
+            </div>
+
+            <div class="scroller">
+              <div class="placespictures">
+                <div class="picicon">
+                  <i class="icon-heart"></i>
+                </div>
+
+                <img src="./assets/img/tour-eiffel.jpg" alt="" />
+                <h5>La Tour Eiffel</h5>
+                <p class="ppdesc">
+                  Tours et plateformes d'observation, Monuments & Points
+                  d'intérêt
+                </p>
+              </div>
+
+              <div class="placespictures">
+                <div class="picicon">
+                  <i class="icon-heart"></i>
+                </div>
+
+                <img src="./assets/img/louvre.jpg" alt="" />
+                <h5>Musée du Louvre</h5>
+                <p class="ppdesc">Bâtiments architecturaux, Musées d'art</p>
+              </div>
+              <div class="placespictures">
+                <div class="picicon">
+                  <i class="icon-heart"></i>
+                </div>
+                <img src="./assets/img/arc-de-triomphe-at-night.jpg" alt="" />
+                <h5>Arc de Triomphe</h5>
+                <p class="ppdesc">
+                  Bâtiments architecturaux, Sites historiques
+                </p>
+              </div>
+              <div class="placespictures">
+                <div class="picicon">
+                  <i class="icon-heart"></i>
+                </div>
+                <img src="./assets/img/invalides.jpg" alt="" />
+                <h5>Musée Rodin</h5>
+                <p class="ppdesc">Musées spécialisés</p>
+              </div>
+              <div class="placespictures">
+                <div class="picicon">
+                  <i class="icon-heart"></i>
+                </div>
+                <img src="./assets/img/shakespeares.jpg" alt="" />
+                <h5>Librairie Shakespeare</h5>
+                <p class="ppdesc">Bibliothèques, Grands magasins</p>
+              </div>
+              <div class="placespictures">
+                <div class="picicon">
+                  <i class="icon-heart"></i>
+                </div>
+                <img class="nd" src="./assets/img/notredame.jpg" alt="" />
+                <h5>Cathédrale Norte-Dame-de-Paris</h5>
+                <p class="ppdesc">
+                  Bâtiments architecturaux, Sites historiques
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="placestogo">
+            <div class="placestxt">
+              <h4>Se reposer</h4>
+
+              <p>Un mélange de charme, de symboles et de modernité.</p>
+
+              <span>Tout afficher</span>
+            </div>
+
+            <div class="scroller">
+              <div class="placespictures">
+                <div class="picicon">
+                  <i class="icon-heart"></i>
+                </div>
+
+                <img src="./assets/img/le-bristol-paris-colonnade.jpg" alt="" />
+                <h5>Le Bristol</h5>
+              </div>
+              <div class="placespictures">
+                <div class="picicon">
+                  <i class="icon-heart"></i>
+                </div>
+                <img src="./assets/img/hotelspa.jpg" alt="" />
+                <h5>La Réserve Paris - Hôtel and Spa</h5>
+              </div>
+              <div class="placespictures">
+                <div class="picicon">
+                  <i class="icon-heart"></i>
+                </div>
+                <img src="./assets/img/restaurant-aspic-quentin.jpg" alt="" />
+                <h5>Four Seasons Hotel George V</h5>
+              </div>
+              <div class="placespictures">
+                <div class="picicon">
+                  <i class="icon-heart"></i>
+                </div>
+                <img src="./assets/img/hotel-de-crillon.jpg" alt="" />
+                <h5>Hôtel de Crillon, A Rosewood Hôtel</h5>
+              </div>
+              <div class="placespictures">
+                <div class="picicon">
+                  <i class="icon-heart"></i>
+                </div>
+                <img
+                  src="./assets/img/le-meurice-paris-restaurant.jpg"
+                  alt=""
+                />
+                <h5>Le Meurice</h5>
+              </div>
+              <div class="placespictures">
+                <div class="picicon">
+                  <i class="icon-heart"></i>
+                </div>
+                <img
+                  class="nd"
+                  src="./assets/img/hotel-des-grands-boulevards.jpg"
+                  alt=""
+                />
+                <h5>Hotel des Grands Boulevards</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="placestogo">
+            <div class="placestxt">
+              <h4>Se restaurer</h4>
+
+              <p>Bistrots et bars typiques, et plus encore à Paris.</p>
+
+              <span>Tout afficher</span>
+            </div>
+
+            <div class="scroller">
+              <div class="placespictures">
+                <div class="picicon">
+                  <i class="icon-heart"></i>
+                </div>
+
+                <img src="./assets/img/verjus.jpg" alt="" />
+                <h5>Verjus</h5>
+                <p class="ppdesc">€€€€ • Française, Européenne, Moderne</p>
+              </div>
+              <div class="placespictures">
+                <div class="picicon">
+                  <i class="icon-heart"></i>
+                </div>
+
+                <img src="./assets/img/114faubourg.jpg" alt="" />
+                <h5>114 Faubourg</h5>
+                <p class="ppdesc">
+                  €€€€ • Française, Européenne, Végétariens bienvenus
+                </p>
+              </div>
+              <div class="placespictures">
+                <div class="picicon">
+                  <i class="icon-heart"></i>
+                </div>
+                <img src="./assets/img/frenchie.jpg" alt="" />
+                <h5>Frenchie - Rue du Nil</h5>
+                <p class="ppdesc">
+                  €€€€ • Française, Végétariens bienvenus, Plats sans gluten
+                </p>
+              </div>
+              <div class="placespictures">
+                <div class="picicon">
+                  <i class="icon-heart"></i>
+                </div>
+                <img src="./assets/img/notre-salle-de-restaurant.jpg" alt="" />
+                <h5>La Table de Colette</h5>
+                <p class="ppdesc">€€€€ • Française, Européenne, Saine</p>
+              </div>
+              <div class="placespictures">
+                <div class="picicon">
+                  <i class="icon-heart"></i>
+                </div>
+                <img src="./assets/img/restaurant-aspic-quentin.jpg" alt="" />
+                <h5>ASPIC</h5>
+                <p class="ppdesc">€€€€ • Française, Européenne, Moderne</p>
+              </div>
+              <div class="placespictures">
+                <div class="picicon">
+                  <i class="icon-heart"></i>
+                </div>
+                <img
+                  class="nd"
+                  src="./assets/img/terrasse-de-gigi.jpg"
+                  alt=""
+                />
+                <h5>Crêperie Gigi</h5>
+                <p class="ppdesc">
+                  €€€€ • Française, Végétariens bienvenus, Choix végétaliens
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="parisian">
+          <div class="title">
+            <div class="line"></div>
+            <div class="titletext"><p>Témoignages associés</p></div>
+          </div>
+
+          <div class="parisianpicture">
+            <div class="parisiantxt">
+              <p class="author">Par Dina Malyana</p>
+
+              <p class="desc">
+                12 hôtels parisiens avec les plus belles vues sur la tour Eiffel
+              </p>
+
+              <p class="txt">
+                Surclassez votre séjour à Paris et réservez une chambre dans un
+                hôtel avec l'une des plus belles vues sur la tour Eiffel, parmi
+                ces adresses recommandées par les voyageurs Tripadvisor.
+              </p>
+            </div>
+
+            <img src="./assets/img/parisian.jpg" alt="" />
+          </div>
+        </section>
+
+        <section id="location">
+          <h2>Louez un logement pour votre prochaine escapade</h2>
+
+          <div class="loctitle">
+            <p class="parisloc">Locations populaires à Paris</p>
+            <span>Tout afficher</span>
+          </div>
+
+          <div class="loctogo">
+            <div class="locpictures">
+              <div class="picicon">
+                <i class="icon-heart"></i>
+              </div>
+              <img src="./assets/img/loc1.jpg" alt="" />
+              <h5>Tour Eiffel - Invalides à 10 min</h5>
+              <p class="ppdesc">3 couchages • 1 chambre • 1 salle de bain</p>
+              <h5 class="price">à partir de 105€/nuit</h5>
+            </div>
+
+            <div class="locpictures">
+              <div class="picicon">
+                <i class="icon-heart"></i>
+              </div>
+              <img src="./assets/img/loc2.jpg" alt="" />
+              <h5>Appartamento tranquillo su un bel cortile alberato</h5>
+              <p class="ppdesc">6 couchages • 2 chambres • 2 salles de bain</p>
+              <h5 class="price">à partir de 99€/nuit</h5>
+            </div>
+
+            <div class="locpictures">
+              <div class="picicon">
+                <i class="icon-heart"></i>
+              </div>
+              <img src="./assets/img/loc3.jpg" alt="" />
+              <h5>Paris - Place Clichy Appartement 2 Pieces avec pkg</h5>
+              <p class="ppdesc">5 couchages • 1 chambre • 1 salle de bain</p>
+              <h5 class="price">à partir de 115€/nuit</h5>
+            </div>
+
+            <div class="locpictures">
+              <div class="picicon">
+                <i class="icon-heart"></i>
+              </div>
+              <img src="./assets/img/loc4.jpg" alt="" />
+              <h5>APARTAMENTO CENTRO DE PARIS LE MARAIS</h5>
+              <p class="ppdesc">4 couchages • 2 chambres • 1 salle de bain</p>
+              <h5 class="price">à partir de 323€/nuit</h5>
+            </div>
+
+            <div class="locpictures">
+              <div class="picicon">
+                <i class="icon-heart"></i>
+              </div>
+              <img src="./assets/img/loc5.jpg" alt="" />
+              <h5>
+                Heart of Paris, Luxury, Stylish Apartment 300 m2, 4Bd/3.5 Bath
+              </h5>
+              <p class="ppdesc">8 couchages • 4 chambres • 6 salles de bain</p>
+              <h5 class="price">à partir de 709€/nuit</h5>
+            </div>
+
+            <div class="locpictures">
+              <div class="picicon">
+                <i class="icon-heart"></i>
+              </div>
+              <img src="./assets/img/loc6.jpg" alt="" />
+              <h5>Beautiful Vacation Rental at Arc de Triomphe in Paris</h5>
+              <p class="ppdesc">5 couchages • 2 chambres • 2 salles de bain</p>
+              <h5 class="price">à partir de 548€/nuit</h5>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="signature">
+          <img src="./assets/img/Tripadvisor_logoset_solid_green.svg" alt="" />
+          <p class="signaturetxt">
+            Made at
+            <a class="flink" href="https://www.lereacteur.io/" target="_blank"
+              >Le Reacteur</a
+            >
+            by
+            <a
+              href="https://www.linkedin.com/in/moustapha-diakhaby-4075b4251/"
+              class="flink"
+              target="_blank"
+              >Moustapha Diakhaby</a
+            >
+            - 2023
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="modal hidden">
+      <form id="contact">
+        <h2>Formulaire de contact</h2>
+
+        <i id="close" class="icon-times"></i>
+
+        <input
+          type="text"
+          name="firstname"
+          id="firstname"
+          value=""
+          placeholder="Prénom"
+        />
+
+        <input
+          type="text"
+          name="lastname"
+          id="lastname"
+          value=""
+          placeholder="Nom"
+        />
+
+        <input
+          type="text"
+          name="email"
+          id="email"
+          value=""
+          placeholder="Mail"
+        />
+
+        <input
+          type="text"
+          name="subject"
+          id="subject"
+          value=""
+          placeholder="Sujet"
+        />
+
+        <textarea name="message" id="message" cols="40" rows="15"></textarea>
+
+        <button id="message" type="submit">Envoyer le message</button>
+      </form>
+    </div>
+  </body>
+</html>
