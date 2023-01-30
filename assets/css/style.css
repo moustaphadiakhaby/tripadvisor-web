@@ -1042,7 +1042,7 @@ footer .container {
     overflow: scroll;
     scroll-behavior: smooth;
     height: 40px;
-    width: 107.5%;
+    width: 109%;
     margin-left: -20px;
     margin-right: -30px;
     flex-wrap: nowrap;
@@ -1080,10 +1080,15 @@ footer .container {
 
   .placestogo {
     flex-direction: column;
-    width: 96vw;
+    width: 95vw;
   }
   .loctogo {
-    width: 96vw;
+    width: 95vw;
+  }
+
+  .loctitle {
+    flex-direction: column;
+    gap: 15px;
   }
   .placestxt {
     width: 100%;
